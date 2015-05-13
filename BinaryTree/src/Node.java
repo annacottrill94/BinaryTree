@@ -1,9 +1,9 @@
 
 public class Node {
 
-	private Node left;
-	private Node right;
-	private int key;
+	Node left;
+	Node right;
+	int key;
 	
 	public Node (int key){
 		this.key = key;
@@ -34,9 +34,4 @@ public class Node {
 	public int getKey(){
 		return key;
 	}
-	public void print(){
-		System.out.println("Key is: " + getKey());
-	}
-	
-	
-}
+}	
